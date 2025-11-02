@@ -1,0 +1,33 @@
+{
+  {
+  // remove ruler(s)
+  "editor.rulers": [],
+
+  // indent guides off
+  "editor.renderIndentGuides": false,
+  "editor.guides.indentation": false,
+
+  // hide glyph margin (left clickable area)
+  "editor.glyphMargin": false,
+
+  // hide minimap (if it looks like a stripe)
+  "editor.minimap.enabled": false,
+
+  // disable Git decorations (modified/added color stripe in gutter)
+  "git.decorations.enabled": false,
+
+  // optional: override gutter/overview ruler colors to transparent (covers theme bugs)
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#00000000",
+    "editorGutter.modifiedBackground": "#00000000",
+    "editorGutter.addedBackground": "#00000000",
+    "editorGutter.deletedBackground": "#00000000",
+    "editorOverviewRuler.modifiedForeground": "#00000000",
+    "editorOverviewRuler.addedForeground": "#00000000",
+    "editorOverviewRuler.deletedForeground": "#00000000"
+  },
+
+  // make sure no extension is forcing guides (some extensions use their own setting)
+  "extensions.ignoreRecommendations": false
+}
+}
